@@ -1,0 +1,144 @@
+@font-face { font-family: BrothersRegular; src: url(fonts/brothreg-071211005EmigreWebOnly.woff); }
+
+@font-face {
+	font-family: 'proxima-nova';
+	src: url('fonts/ProximaNova-Regular.otf');
+}
+
+@font-face {
+	font-family: proxima-nova-condensed;
+	src: url('fonts/Proxima Nova Condensed Regular.otf');
+
+}
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(IMG/loader-64x/Preloader_2.gif) center no-repeat #fff;
+}
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.logo { 
+  width: 50%;
+  height: 50%;
+}
+#navbar{
+    border: 0px;
+    background-color: #ffc300;
+    width: 120%;
+    height: 10%;
+    position: fixed;
+    z-index: 1;
+    top:0; /*added this*/
+
+}
+
+#navbar div.block-left {
+   float: left;
+}
+
+
+ /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 90%; 
+        width :100%;
+        top: 10%;
+        margin-left:auto; 
+        margin-right:auto;
+          
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+       
+      }
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Tablets(portrait and landscape) ----------- */
+@media only screen (min-device-width : 768px), (max-device-width : 1024px) {
+	
+}
+
+@media screen and (max-width: 768px), (max-device-width: 768px) {
+	#logos li.current{   margin-left: -21%; }
+	#menu {   padding: 50px 0 50px; }
+	#home #logo { padding: 16% 0 0; width: 90%; }
+	#home .details p { font-size: .8em; padding: 0; margin: 0; }
+	#home .details p.order { padding-bottom: 1em; margin-right: 1%;}
+	.container, .slide_container {   padding-top: 4%; margin-bottom: 10%;}
+	section.slide_container { padding-top: 10%; }
+	.split2 { -moz-column-count: 1; -moz-column-width: 64.583333%; -moz-column-gap: 0; -webkit-column-count: 1; -webkit-column-width: 64.583333%; -webkit-column-gap: 0;}
+	#logos { margin-left: 4%; width: 115px; text-align: center; float: left; height: 49px; overflow: visible;}
+	#findus .details { margin-top: 0%; font-style: normal; font-family: "proxima-nova-condensed", Helvetica, sans-serif; font-weight: 400; z-index: 5; bottom: 0px; width: 100%; text-align: center; padding-top: 0%; }
+	#findus .details p.order { margin-top: 0%; font-size: 12px;  font-family: 'BrothersRegular', Helvetica, sans-serif; }
+	section#findcontainer { padding-top: 2%; }
+	section.services_slider { margin-top: -8%; }
+}
+
+@media screen and (max-width: 480px), (max-device-width: 480px) {
+	#logos{ padding: 3% 24%; height: 25px; }
+	p { font-size: .875em; }
+	.three, .four, .six, .eight, .nine { display: block; float: none; width: 90%; padding: 0 5% }
+	.split2 { column-count: 1; }
+	.container, .slide_container { padding: 17% 0 !important; margin: 0!important }
+	#nav li {  }
+	#fixed{        background-color: rgba(156, 155, 155, 0.78);   background: url('IMG/transparent.png');  }
+	#home { height: auto; min-height: auto; }
+	#home .details { text-align: center; }
+	#home .details .clear { display: block; }
+	#home .details p { float: none; width: 100%; text-align: center; padding: 0; margin: 0; }
+	#home .details p.order { padding-bottom: 1em; }
+	#about .title, #findus .title, #menu .title { margin-bottom: 20px; text-align: center; }
+	#about .six { margin: 0 1.0416667% 30px!important; }
+	#nav{ float: right;padding: 2% 9%;text-align: center;}
+  /*.flex-control-nav { display: none; }*/
+	#menu h2 { margin: 0 auto; }
+	#findus .details, #findus .siteby { position: relative; width: 100%; text-align: center; margin: 20px 0; right: 0; }
+	#findus img.stamp_find { max-width: 56.333%; }
+	#findus .three a { color: #fff; font-family: 'BrothersRegular', Helvetica, sans-serif; letter-spacing: 0; }
+	#findus .nine { margin-top: 50px; width: 80%; padding: 0 10%; }
+}
+
+@media screen and (max-width: 360px), (max-device-width: 360px)  {
+.container, .slide_container {
+  padding: 40% 0 !important;}   
+}
+
+
+
+
+@media screen and (max-width: 768px), (max-device-width: 768px) {
+
+}
+
+
+
