@@ -1,3 +1,5 @@
+<?php
+
 $json2echo=array(
                       "speech"=> "",
                       "messages"=> [array(
@@ -20,4 +22,6 @@ $json2echo=array(
 
 
       header('Content-Type: application/json');
-      echo json_encode($json2echo, JSON_UNESCAPED_SLASHES);*/
+      echo json_encode($json2echo, JSON_UNESCAPED_SLASHES);
+
+?>
